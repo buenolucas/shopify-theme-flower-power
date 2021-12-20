@@ -4,8 +4,8 @@
     "theme_name": "Flower Power",
     "theme_version": "0.1.1",
     "theme_author": "Vulcânica",
-    "theme_documentation_url": "https://help.shopify.dev/manual/online-store/themes/os20/themes-by-shopify/flower-power",
-    "theme_support_url": "https://support.vulcanica.dev/"
+    "theme_documentation_url": "https:\/\/help.shopify.dev\/manual\/online-store\/themes\/os20\/themes-by-shopify\/flower-power",
+    "theme_support_url": "https:\/\/support.vulcanica.dev\/"
   },
   {
     "name": "t:settings_schema.colors.name",
