@@ -13,7 +13,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Explore More",
+            "button_label_1": "",
             "button_link_1": "#Slider-template--15299088482495__featured_products",
             "button_style_secondary_1": false,
             "button_label_2": "See all products",
@@ -76,75 +76,6 @@
         "full_width": true
       }
     },
-    "16400226597675f9f5": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "1640022659eb0789d9-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1640022659eb0789d9-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "1640022659eb0789d9-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1640022659eb0789d9-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1640022659eb0789d9-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1640022659eb0789d9-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1640022659eb0789d9-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1640022659eb0789d9-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1640022659eb0789d9-0",
-        "1640022659eb0789d9-1",
-        "1640022659eb0789d9-2",
-        "1640022659eb0789d9-3",
-        "1640022659eb0789d9-4",
-        "1640022659eb0789d9-5",
-        "1640022659eb0789d9-6",
-        "1640022659eb0789d9-7"
-      ],
-      "settings": {
-        "product": "our-heart-of-gold-box",
-        "secondary_background": true,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
     "1640024501705f70e9": {
       "type": "collage",
       "blocks": {
@@ -182,7 +113,7 @@
         "0066be75-8249-44ae-a7d2-94146499ec2b"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
@@ -341,7 +272,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "16400226597675f9f5",
     "1640024501705f70e9",
     "featured_products",
     "16400233862511915f",
