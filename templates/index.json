@@ -165,11 +165,21 @@
             "image_padding": false,
             "secondary_background": false
           }
+        },
+        "0066be75-8249-44ae-a7d2-94146499ec2b": {
+          "type": "product",
+          "settings": {
+            "product": "enchante-box",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
         }
       },
       "block_order": [
         "16400245013109061b-1",
-        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb"
+        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb",
+        "0066be75-8249-44ae-a7d2-94146499ec2b"
       ],
       "settings": {
         "heading": "Multimedia collage",
