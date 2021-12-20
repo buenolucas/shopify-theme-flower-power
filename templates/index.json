@@ -28,13 +28,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/site-header.jpg",
+        "image_2": "shopify:\/\/shop_images\/header-site-02.jpg",
         "image_overlay_opacity": 30,
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
