@@ -106,8 +106,8 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false,
+            "product": "love-me-box",
+            "second_image": true,
             "image_padding": false,
             "secondary_background": false
           }
