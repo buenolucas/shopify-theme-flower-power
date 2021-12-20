@@ -153,7 +153,7 @@
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
