@@ -6,17 +6,17 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Flowers for all",
             "heading_size": "medium"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Explore More",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "See our products",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -34,7 +34,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -143,7 +143,6 @@
     },
     "multi_column": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -179,12 +178,12 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
