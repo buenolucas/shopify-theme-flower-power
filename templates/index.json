@@ -165,14 +165,14 @@
       "type": "featured-collection",
       "settings": {
         "title": "Best Sellers",
-        "collection": "featured-collection",
+        "collection": "best-sellers",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
       }
