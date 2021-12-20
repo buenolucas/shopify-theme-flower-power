@@ -109,13 +109,13 @@
             "product": "love-me-box",
             "second_image": true,
             "image_padding": false,
-            "secondary_background": false
+            "secondary_background": true
           }
         },
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "eternity-roses",
             "image_padding": false,
             "color_scheme": "background-1"
           }
