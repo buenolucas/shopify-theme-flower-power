@@ -148,9 +148,9 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Flowers for Everyone",
+        "title": "",
         "collection": "best-sellers",
-        "products_to_show": 2,
+        "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "portrait",
