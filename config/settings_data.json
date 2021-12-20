@@ -11,6 +11,10 @@
     "type_body_font": "assistant_n4",
     "social_instagram_link": "https:\/\/instagram.com\/fjluxuryflowers",
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/fj-logo.png",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#1878b9",
+    "checkout_button_color": "#1878b9",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
