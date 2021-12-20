@@ -14,9 +14,9 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Explore More",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "#Slider-template--15299088482495__featured_products",
             "button_style_secondary_1": false,
-            "button_label_2": "See our products",
+            "button_label_2": "See all products",
             "button_link_2": "shopify:\/\/collections",
             "button_style_secondary_2": true
           }
