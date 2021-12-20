@@ -145,8 +145,41 @@
         "enable_video_looping": false
       }
     },
+    "1640024501705f70e9": {
+      "type": "collage",
+      "blocks": {
+        "16400245013109061b-1": {
+          "type": "product",
+          "settings": {
+            "product": "our-heart-of-gold-box",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb": {
+          "type": "product",
+          "settings": {
+            "product": "our-veneza-velvet-box",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "16400245013109061b-1",
+        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "collection": "featured-collection",
@@ -293,50 +326,17 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
-    },
-    "1640024501705f70e9": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "16400245013109061b-1": {
-          "type": "product",
-          "settings": {
-            "product": "our-heart-of-gold-box",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb": {
-          "type": "product",
-          "settings": {
-            "product": "our-veneza-velvet-box",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        }
-      },
-      "block_order": [
-        "16400245013109061b-1",
-        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "16400226597675f9f5",
+    "1640024501705f70e9",
     "featured_products",
     "16400233862511915f",
     "164002336051b5296f",
     "multi_column",
-    "collage",
-    "1640024501705f70e9"
+    "collage"
   ]
 }
