@@ -10,11 +10,11 @@
       {%- if section.settings.show_delivery_schedule -%}
           <div  style="margin-bottom:16px"> 
             <label for="Cart-scheduled-date">Pick a delivery date</label>
-            <input class="field__input" placeholder="insert the date" type="date" id="Cart-scheduled-date" style="padding: 15px"/>
+            <input class="field__input" placeholder="insert the date" type="date" name="scheduled_date" form="cart" id="Cart-scheduled-date" style="padding: 15px"/>
           </div>
           <div  style="margin-bottom:16px"> 
             <label for="Cart-scheduled-time">Choose a time</label>
-            <input  class="field__input" placeholder="insert a time" type="time"  form="cart" id="Cart-scheduled-time" style="padding: 15px"/>
+            <input  class="field__input" placeholder="insert a time" type="time" name="scheduled_time" form="cart" id="Cart-scheduled-time" style="padding: 15px"/>
            
           </div>
         </div>
