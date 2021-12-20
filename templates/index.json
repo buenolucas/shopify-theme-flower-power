@@ -177,6 +177,35 @@
         "show_rating": false
       }
     },
+    "164002336051b5296f": {
+      "type": "collection-list",
+      "blocks": {
+        "16400233606449c732-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eternity-roses"
+          }
+        },
+        "16400233606449c732-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fresh-flowers"
+          }
+        }
+      },
+      "block_order": [
+        "16400233606449c732-0",
+        "16400233606449c732-1"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -224,37 +253,9 @@
         "swipe_on_mobile": false
       }
     },
-    "164002336051b5296f": {
-      "type": "collection-list",
-      "blocks": {
-        "16400233606449c732-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "eternity-roses"
-          }
-        },
-        "16400233606449c732-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fresh-flowers"
-          }
-        }
-      },
-      "block_order": [
-        "16400233606449c732-0",
-        "16400233606449c732-1"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
-    },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "video": {
           "type": "video",
@@ -292,6 +293,39 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "1640024501705f70e9": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "16400245013109061b-1": {
+          "type": "product",
+          "settings": {
+            "product": "our-heart-of-gold-box",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb": {
+          "type": "product",
+          "settings": {
+            "product": "our-veneza-velvet-box",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "16400245013109061b-1",
+        "0efb8e31-4a03-4ea5-9ba9-432b49a112bb"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -300,8 +334,9 @@
     "16400226597675f9f5",
     "featured_products",
     "16400233862511915f",
-    "multi_column",
     "164002336051b5296f",
-    "collage"
+    "multi_column",
+    "collage",
+    "1640024501705f70e9"
   ]
 }
