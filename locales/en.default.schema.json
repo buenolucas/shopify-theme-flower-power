@@ -1291,6 +1291,9 @@
       "settings": {
         "show_cart_note": {
           "label": "Enable cart note"
+        },
+        "show_delivery_schedule": {
+          "label": "Enable delivery schedule"
         }
       },
       "blocks": {

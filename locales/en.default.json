@@ -230,6 +230,7 @@
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
       "note": "Order special instructions",
+      "schedule_delvery": "Schedule Delivery",
       "checkout": "Check out",
       "empty": "Your cart is empty",
       "cart_error": "There was an error while updating your cart. Please try again.",

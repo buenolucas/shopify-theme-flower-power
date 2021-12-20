@@ -6,12 +6,29 @@
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
+      <div style="width:100%">
+      {%- if section.settings.show_delivery_schedule -%}
+          <div  style="margin-bottom:16px"> 
+            <label for="Cart-scheduled-date">Pick a delivery date</label>
+            <input class="field__input" placeholder="insert the date" type="date" id="Cart-scheduled-date" style="padding: 15px"/>
+          </div>
+          <div  style="margin-bottom:16px"> 
+            <label for="Cart-scheduled-time">Choose a time</label>
+            <input  class="field__input" placeholder="insert a time" type="time"  form="cart" id="Cart-scheduled-time" style="padding: 15px"/>
+           
+          </div>
+        </div>
+      {%- endif -%}
       {%- if section.settings.show_cart_note -%}
+        <div>
         <cart-note class="cart__note field">
           <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
           <textarea class="text-area text-area--resize-vertical field__input" name="note" form="cart" id="Cart-note" placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
         </cart-note>
+      </div>
       {%- endif -%}
+
+     
 
       <div class="cart__blocks">
         {% for block in section.blocks %}
@@ -124,6 +141,12 @@
       "id": "show_cart_note",
       "default": false,
       "label": "t:sections.main-cart-footer.settings.show_cart_note.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_delivery_schedule",
+      "default": false,
+      "label": "t:sections.main-cart-footer.settings.show_delivery_schedule.label"
     }
   ],
   "blocks": [
